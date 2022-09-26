@@ -12,6 +12,6 @@ app.use(bodyParser.json());
 
 app.use(cors({origin : 'http://localhost:4200'}));
 
-app.listen(3000, ()=> console.log('Server started on port 3000'));
+app.listen(3000, ()=> console.log('Servidor Corriendo en el Puerto 3000'));
 
 app.use('/post',route);
